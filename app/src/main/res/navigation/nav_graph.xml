@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/HomeFragment">
+
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="com.example.ict08.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/FolderFragment"
+        android:name="com.example.ict08.FolderFragment"
+        android:label="FolderFragment"
+        tools:layout="@layout/fragment_folder"/>
+
+    <fragment
+        android:id="@+id/AddFragment"
+        android:name="com.example.ict08.AddFragment"
+        android:label="AddFragment"
+        tools:layout="@layout/fragment_add"/>
+
+    <fragment
+        android:id="@+id/AlarmFragment"
+        android:name="com.example.ict08.AlarmFragment"
+        android:label="AlarmFragment"
+        tools:layout="@layout/fragment_alarm"/>
+
+
+    <fragment
+        android:id="@+id/SettingFragment"
+        android:name="com.example.ict08.SettingFragment"
+        android:label="SettingFragment"
+        tools:layout="@layout/fragment_setting"/>
+
+</navigation>
